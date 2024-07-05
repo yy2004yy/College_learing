@@ -1,0 +1,33 @@
+$begin 'soln'
+	ObjectType='Terminal'
+	SolutionType='None'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name='Adaptive_2 '
+	AdaptivePass=3
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=2400000000
+			DataType='None'
+			EnergyError=16.6769299847062
+			IeEnergyError=0
+			$begin 'PortImpedance'
+				MatrixSize=0
+				NumberOfBlocks=0
+			$end 'PortImpedance'
+			$begin 'Gamma'
+				MatrixSize=0
+				NumberOfBlocks=0
+			$end 'Gamma'
+			$begin 'ExtraHfssData'
+			$end 'ExtraHfssData'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	MultiTerminal=false
+	ModalData=true
+	PreferredImpedance='Zpi'
+	IeEnergyError=0
+$end 'soln'

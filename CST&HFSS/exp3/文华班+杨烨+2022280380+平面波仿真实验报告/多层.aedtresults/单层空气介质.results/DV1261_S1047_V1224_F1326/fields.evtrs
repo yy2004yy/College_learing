@@ -1,0 +1,11 @@
+$begin 'Header'
+	NumSources=1
+	BigEndian=false
+	ByteOrder=1094861636
+	DataFormat='BINARY'
+	DataPrecision='Float'
+	Frequency=2.4e+09
+	Source_1='CPWA_IncPWave1'
+	MixedOrder='false'
+	HighestOrder=2
+$end 'Header'

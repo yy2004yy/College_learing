@@ -1,0 +1,20 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  Hz
+  Time:       s
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 10:59 AM Friday, 07. June 2024
+
+  Evaluating 'B-Field (Ms)_Abs (X)': 1 s
+  Evaluating 'B-Field (Ms)_Abs (X)_1': 0 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 10:59 AM Friday, 07. June 2024
+----------------------------------------------------------------------------------------

@@ -1,0 +1,141 @@
+07/Jun/2024 11:40:48  Magnetostatic Solver
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:48  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  Hz
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:48  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: electric
+                        Xmax: electric
+                      
+                        Ymin: electric
+                        Ymax: electric
+                      
+                        Zmin: electric
+                        Zmax: electric
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:48  Solver started at: 11:40 AM Friday, 07. June 2024 (中国标准时间)
+                      
+                        Module:  Magnetostatic Solver (Win 64)
+                        Version: 2022.4 Release from 2022-04-26 (change 967892)
+                      
+                        Hardware:
+                           Computer name: LAPTOP-C5GP7G7D
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:48  Solver order = 2
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:49  Using mesh with curved elements order: 2
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:49  Adaptive Computation
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:49  Pass 1: 
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:49  Linear solver is running
+                      Desired linear accuracy = 1.0e-06, max Iter = 1200
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:50  Pass 2: 
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:50  Marked 98 of 1005 for refinement.07/Jun/2024 11:40:50  Refinement successful
+07/Jun/2024 11:40:50  Linear solver is running
+                      Desired linear accuracy = 1.0e-06, max Iter = 1200
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:51  Pass 3: 
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:51  Marked 377 of 3984 for refinement.07/Jun/2024 11:40:51  Refinement successful
+07/Jun/2024 11:40:52  Linear solver is running
+                      Desired linear accuracy = 1.0e-06, max Iter = 1200
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:52  Pass 4: 
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:52  Marked 578 of 5899 for refinement.07/Jun/2024 11:40:53  Refinement successful
+07/Jun/2024 11:40:53  Linear solver is running
+                      Desired linear accuracy = 1.0e-06, max Iter = 1200
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:54  Pass 5: 
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:54  Marked 775 of 7938 for refinement.07/Jun/2024 11:40:55  Refinement successful
+07/Jun/2024 11:40:55  Linear solver is running
+                      Desired linear accuracy = 1.0e-06, max Iter = 1200
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:57  Pass 6: 
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:40:57  Marked 1372 of 14027 for refinement.07/Jun/2024 11:40:58  Refinement successful
+07/Jun/2024 11:40:59  Linear solver is running
+                      Desired linear accuracy = 1.0e-06, max Iter = 1200
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:41:02  Solver Size Statistics:
+                      
+                        Number of mesh cells:         21866 
+                        Number of unknowns:           112583
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:41:02  Solver Timing Statistics: (last run)
+                      
+                        Mesh generation:                  0d :  0h :  0m :  0s
+                        Initialization and data import:   0d :  0h :  0m :  0s
+                        Assembling process:               0d :  0h :  0m :  1s
+                        Linear solver:                    0d :  0h :  0m :  2s
+                                                       --------------------------
+                        Total time:                       0d :  0h :  0m :  3s
+                      
+                        Number of threads used:           10 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:41:02  Total simulation time (all mesh adaptation runs) 0d :  0h :  0m : 12s
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:41:02  Linear Solver Selection: Iterative
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:41:02  Memory statistics:
+                      
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Solver start        12880                         3633628      3633512      
+                        Solver run total    175568                        3632144      3489824      
+                        ----------------------------------------------------------------------------
+                      
+                      
+                      ------------------------------------------------------------------------------
+07/Jun/2024 11:41:03  Creating parametric 1D results for Run ID 1
+                      
+                      ------------------------------------------------------------------------------
