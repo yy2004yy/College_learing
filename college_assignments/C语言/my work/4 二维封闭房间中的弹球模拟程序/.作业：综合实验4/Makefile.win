@@ -1,0 +1,32 @@
+# Project: 综合实验4弹球模拟项目模板
+# Makefile created by Red Panda C++ 1.2
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o ex4pinballFuns.o
+LINKOBJ  = main.o ex4pinballFuns.o
+CLEANOBJ  =  main.o ex4pinballFuns.o 综合实验4弹球模拟项目.exe
+LIBS     = 
+INCS     =  
+CXXINCS  =  
+BIN      = 综合实验4弹球模拟项目.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -Wextra -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -Wextra -D__DEBUG__
+RM       = del /q /f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c ex4pinball.h
+	$(CC) -c C:/Users/HP/Desktop/二维封闭房间中的弹球模拟程序/.作业：综合实验4/main.c -o main.o $(CFLAGS) 
+
+ex4pinballFuns.o: ex4pinballFuns.c ex4pinball.h
+	$(CC) -c C:/Users/HP/Desktop/二维封闭房间中的弹球模拟程序/.作业：综合实验4/ex4pinballFuns.c -o ex4pinballFuns.o $(CFLAGS) 
